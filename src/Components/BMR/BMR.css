@@ -1,0 +1,65 @@
+.BMR {
+  width: 85%;
+  margin-left: 15%;
+  height: 100vh;
+  background: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  font-family: 'Orbitron', sans-serif;
+  -webkit-box-shadow: inset 0px 0px 5px black;
+          box-shadow: inset 0px 0px 5px black;
+}
+
+.radio {
+  cursor: pointer;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+  position: relative;
+  outline: none;
+}
+
+.radio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  border-radius: 50%;
+}
+
+.radio::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background: black;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.radio:checked::after {
+  background: #ff8800;
+}
+
+span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+label {
+  font-size: 20px;
+}
+/*# sourceMappingURL=BMR.css.map */

@@ -1,0 +1,46 @@
+.Home{
+    width: 85%;
+    height: 100vh;
+    margin-left: 15%;
+    background: url('../..//img/bg.jpeg') center / cover;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 5px black;
+    .home-quotes{
+        font-size: 50px;
+        color: white;
+        margin-bottom: 20px;
+        z-index: 2;
+    }
+    .btn-link{
+        padding: 8px 50px;
+        text-decoration: none;
+        color: white;
+        border: solid 2px white;
+        font-size: 20px;
+        z-index: 2;
+        background: transparent;
+        position: relative;
+        overflow: hidden;
+    }
+    .btn-link::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0%;
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(to right,  transparent, rgba(255, 255, 255, 0.212), transparent);
+        transition: all .5s;
+        transform: rotate(20deg);
+    }
+    .btn-link:hover::before{
+        left: 100%;
+        width: 30%;
+    }
+
+}

@@ -1,0 +1,35 @@
+$primary-color: rgb(255, 136, 0);
+nav{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgb(26, 26, 26), black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.nav-item{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: all .3s;
+}
+.nav-item:hover, .active{
+    margin-left: 10px;
+    color: $primary-color;
+}
