@@ -29,7 +29,57 @@ nav{
     margin-bottom: 20px;
     transition: all .3s;
 }
-.nav-item:hover, .active{
+.nav-item:hover{
+    color: $primary-color;
+}
+.active{
     margin-left: 10px;
     color: $primary-color;
+}
+
+@media screen and (max-width: 500px){
+    nav{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100vw;
+        overflow: hidden;
+        z-index: 10;
+        transition: .3s;
+        text-align: center;
+    }
+    .nav-item{
+        font-size: 20px;
+    }
+    .active{
+        margin-left: 0;
+    }
+    .show{
+        opacity: 1;
+    }
+    .hide{
+        opacity: 0;
+        pointer-events: none;
+    }
+    .btn{
+        z-index: 50;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: transparent;
+        border: none;
+        font-size: 30px;
+        color: $primary-color;
+        outline: none;
+    }
+    .mobile-logo{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        color: $primary-color;
+        z-index: 5;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 25px;
+        text-decoration: none;
+    }
 }

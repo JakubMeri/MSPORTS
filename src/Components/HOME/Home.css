@@ -60,4 +60,18 @@
   left: 100%;
   width: 30%;
 }
+
+@media screen and (max-width: 500px) {
+  .Home {
+    width: 100vw;
+    margin-left: 0;
+    text-align: center;
+  }
+  .home-quotes {
+    font-size: 30px !important;
+  }
+  .btn-link {
+    padding: 5px 30px !important;
+  }
+}
 /*# sourceMappingURL=Home.css.map */

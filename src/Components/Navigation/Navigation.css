@@ -40,8 +40,60 @@ nav {
   transition: all .3s;
 }
 
-.nav-item:hover, .active {
+.nav-item:hover {
+  color: #ff8800;
+}
+
+.active {
   margin-left: 10px;
   color: #ff8800;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    z-index: 10;
+    -webkit-transition: .3s;
+    transition: .3s;
+    text-align: center;
+  }
+  .nav-item {
+    font-size: 20px;
+  }
+  .active {
+    margin-left: 0;
+  }
+  .show {
+    opacity: 1;
+  }
+  .hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .btn {
+    z-index: 50;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #ff8800;
+    outline: none;
+  }
+  .mobile-logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #ff8800;
+    z-index: 5;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+  }
 }
 /*# sourceMappingURL=Navigation.css.map */
