@@ -49,6 +49,14 @@ nav {
   color: #ff8800;
 }
 
+.mobile-logo {
+  display: none;
+}
+
+.btn {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   nav {
     position: fixed;
@@ -75,6 +83,7 @@ nav {
     pointer-events: none;
   }
   .btn {
+    display: block;
     z-index: 50;
     position: absolute;
     top: 10px;
@@ -86,6 +95,7 @@ nav {
     outline: none;
   }
   .mobile-logo {
+    display: block;
     position: absolute;
     left: 10px;
     top: 10px;
