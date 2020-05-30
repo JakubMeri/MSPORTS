@@ -71,7 +71,7 @@ export default function Chart(props) {
 
     return (
         <div className="Chart">
-            <h1>Your goal</h1>
+            <h1>Your goal:</h1>
             <span>
                 <label htmlFor="bulk">Bulk</label>
                 <input onChange={getGoal} className="radio" type="radio" name="goal" value="bulk"/>
