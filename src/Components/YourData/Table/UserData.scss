@@ -1,0 +1,72 @@
+$primary-color: rgb(255, 136, 0);
+div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.table{
+    width: 90%;
+    height: auto;
+    border-collapse: collapse;
+
+    th{
+        background: black;
+        color: $primary-color;
+        height: 30px;
+    }
+    tr, td, th{
+        border: solid 2px black;
+        width: 13%;
+        margin: 0;
+        text-align: center;
+    }
+    tbody{
+        tr:hover{
+            background: #333;
+            color: white;
+            button{
+                color: white;
+            }
+                }
+    }
+    button{
+        cursor: pointer;
+        color: black;
+        font-size: 20px;
+        border: none;
+        background: transparent;
+        transition: .1s;
+        outline: none;
+        &:hover{
+            transform: scale(1.1);
+            color: red !important;
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    div{
+        align-self: start;
+    }
+    .table{
+        position: relative;
+        top: 0;
+        width: 100%;
+        button{
+            font-size: 14px;
+        }
+        tr, td, th{
+            width: auto;
+        }
+    }
+    tbody{
+        tr{
+            font-size: 12px;
+        }
+    }
+    thead{
+        th{
+            font-size: 10px;
+        }
+    }
+}

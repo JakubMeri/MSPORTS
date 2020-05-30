@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Home from './Components/HOME/Home'
 import BMR from './Components/BMR/BMR'
+import YourData from './Components/YourData/YourData'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +19,7 @@ function App() {
     <Switch>
       <Route path="/MSPORTS" exact component={Home} />
       <Route path="/BMR" component={BMR} />
+      <Route path="/YourData" component={YourData} />
     </Switch>
     </div>
     </Router>

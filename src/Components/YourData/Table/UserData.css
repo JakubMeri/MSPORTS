@@ -1,0 +1,84 @@
+div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.table {
+  width: 90%;
+  height: auto;
+  border-collapse: collapse;
+}
+
+.table th {
+  background: black;
+  color: #ff8800;
+  height: 30px;
+}
+
+.table tr, .table td, .table th {
+  border: solid 2px black;
+  width: 13%;
+  margin: 0;
+  text-align: center;
+}
+
+.table tbody tr:hover {
+  background: #333;
+  color: white;
+}
+
+.table tbody tr:hover button {
+  color: white;
+}
+
+.table button {
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  -webkit-transition: .1s;
+  transition: .1s;
+  outline: none;
+}
+
+.table button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: red !important;
+}
+
+@media screen and (max-width: 500px) {
+  div {
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
+  .table {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+  .table button {
+    font-size: 14px;
+  }
+  .table tr, .table td, .table th {
+    width: auto;
+  }
+  tbody tr {
+    font-size: 12px;
+  }
+  thead th {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=UserData.css.map */
