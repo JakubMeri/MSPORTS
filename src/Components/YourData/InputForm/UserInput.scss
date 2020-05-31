@@ -48,13 +48,17 @@ $primary-color: rgb(255, 136, 0);
         flex-direction: column;
         justify-content: center;
         input{
-            margin-bottom: 20px;
+            margin-top: 20px;
             width: 80%;
             height: 30px;
+        }
+        input:nth-child(4){
+            margin-bottom: 10px;
         }
         button{
             width: 84%;
             height: 30px;
+            margin-top: 20px;
         }
     }
 }

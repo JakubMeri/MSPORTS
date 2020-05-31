@@ -76,13 +76,17 @@
             justify-content: center;
   }
   .form-data input {
-    margin-bottom: 20px;
+    margin-top: 20px;
     width: 80%;
     height: 30px;
+  }
+  .form-data input:nth-child(4) {
+    margin-bottom: 10px;
   }
   .form-data button {
     width: 84%;
     height: 30px;
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=UserInput.css.map */
