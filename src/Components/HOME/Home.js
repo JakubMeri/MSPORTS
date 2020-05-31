@@ -7,7 +7,7 @@ export default function Home() {
         <div className="Home">
             <div className="overlay"></div> 
 
-            <h1 className="home-quotes">ALWAYS WORK ON YOUR SELVE</h1>   
+            <h1 className="home-quotes">ALWAYS WORK ON YOURSELF</h1>   
             <Link to='/BMR' className="btn-link">Continue</Link>
             
         </div>
