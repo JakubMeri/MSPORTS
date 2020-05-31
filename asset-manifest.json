@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MSPORTS/static/css/main.845ab20f.chunk.css",
-    "main.js": "/MSPORTS/static/js/main.c37f340f.chunk.js",
-    "main.js.map": "/MSPORTS/static/js/main.c37f340f.chunk.js.map",
+    "main.css": "/MSPORTS/static/css/main.a5360e8a.chunk.css",
+    "main.js": "/MSPORTS/static/js/main.8ce41a68.chunk.js",
+    "main.js.map": "/MSPORTS/static/js/main.8ce41a68.chunk.js.map",
     "runtime-main.js": "/MSPORTS/static/js/runtime-main.040ac8db.js",
     "runtime-main.js.map": "/MSPORTS/static/js/runtime-main.040ac8db.js.map",
     "static/js/2.42cefd46.chunk.js": "/MSPORTS/static/js/2.42cefd46.chunk.js",
     "static/js/2.42cefd46.chunk.js.map": "/MSPORTS/static/js/2.42cefd46.chunk.js.map",
     "index.html": "/MSPORTS/index.html",
-    "precache-manifest.bfdecfa46b4432fb71ff7e9f6e5a1c5e.js": "/MSPORTS/precache-manifest.bfdecfa46b4432fb71ff7e9f6e5a1c5e.js",
+    "precache-manifest.e76886e0168fb70306965dfc9074e354.js": "/MSPORTS/precache-manifest.e76886e0168fb70306965dfc9074e354.js",
     "service-worker.js": "/MSPORTS/service-worker.js",
-    "static/css/main.845ab20f.chunk.css.map": "/MSPORTS/static/css/main.845ab20f.chunk.css.map",
+    "static/css/main.a5360e8a.chunk.css.map": "/MSPORTS/static/css/main.a5360e8a.chunk.css.map",
     "static/js/2.42cefd46.chunk.js.LICENSE.txt": "/MSPORTS/static/js/2.42cefd46.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/MSPORTS/static/media/bg.00d7569b.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.040ac8db.js",
     "static/js/2.42cefd46.chunk.js",
-    "static/css/main.845ab20f.chunk.css",
-    "static/js/main.c37f340f.chunk.js"
+    "static/css/main.a5360e8a.chunk.css",
+    "static/js/main.8ce41a68.chunk.js"
   ]
 }
