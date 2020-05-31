@@ -63,6 +63,12 @@ e.preventDefault();
         history.push(newData);
         localStorage.setItem("data", JSON.stringify(history));
         this.setState({data: JSON.parse(localStorage.getItem("data"))});
+        this.setState({
+            calories: 0,
+            weight: 0,
+            waist: 0,
+            hips: 0
+        })
         document.getElementById("form-goals").reset();
     }
 }
